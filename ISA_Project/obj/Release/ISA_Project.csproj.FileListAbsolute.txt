@@ -1,0 +1,98 @@
+H:\IT495\ISA_Project\ISA_Project\bin\ApplicationInsights.config
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\csc.exe
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\vbc.exe
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe
+H:\IT495\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\IT495\ISA_Project\ISA_Project\bin\ISA_Project.dll.config
+H:\IT495\ISA_Project\ISA_Project\bin\ISA_Project.dll
+H:\IT495\ISA_Project\ISA_Project\bin\ISA_Project.pdb
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.Agent.Intercept.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.xml
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.xml
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.xml
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.xml
+H:\IT495\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\IT495\ISA_Project\ISA_Project\obj\Release\ISA_Project.dll
+H:\IT495\ISA_Project\ISA_Project\obj\Release\ISA_Project.pdb
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.pdb
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\ApplicationInsights.config
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\csc.exe
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\vbc.exe
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.dll.config
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.pdb
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Agent.Intercept.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\ISA_Project (1)\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.csprojResolveAssemblyReference.cache
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\ApplicationInsights.config
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\csc.exe
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\vbc.exe
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.dll.config
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\ISA_Project.pdb
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Agent.Intercept.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.DependencyCollector.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.Web.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.AI.WindowsServer.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.ApplicationInsights.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.csprojResolveAssemblyReference.cache
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.dll
+H:\ISA_Project New\ISA_Project\ISA_Project\ISA_Project\obj\Release\ISA_Project.pdb

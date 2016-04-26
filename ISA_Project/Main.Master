@@ -1,0 +1,387 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs"
+    Inherits="ISA_Project.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- For fixing nav bar JavaScript -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet" />
+    <script src="bootstrap/js/jquery-1.9.1.js"></script>
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title></title>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Navigation
+	<div class="navbar-fixed-top"> -->
+    <div class="brand">Indian Student Association</div>
+    <div class="address-bar">Illinois State University, Normal, IL</div>
+
+    <nav id="navbar-main" class="navbar navbar-default " role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the amenu is collapsed -->
+                <a class="navbar-brand" href="index.html">ISA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <asp:MultiView ID="MultiView2" runat="server">
+                    <asp:View ID="view2_1" runat="server">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li >
+                                <a href="Home.aspx">Home</a>
+                            </li>
+                            <li>
+                                <a href="About.aspx">About</a>
+                            </li>
+                            <li>
+                                <a href="EventCommon.aspx">Events</a>
+                            </li>
+                            <li>
+                                <a href="documents.aspx">Documents</a>
+                            </li>
+                            <li>
+                                <a href="PostComment.aspx">Buy/Sell</a>
+                            </li>
+                            <li>
+                                 <div style="padding-top: 13px; padding-left:4px">
+                                    <a class=" dropdown-toggle" data-toggle="dropdown" style="color:#777" aria-expanded="false">Members <span class="caret"></span>    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="members.aspx">Committee Members</a></li>
+                                        <li><a href="Alumini.aspx">Alumini Members</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </asp:View>
+                    <asp:View ID="view2_2" runat="server">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="Home.aspx">Home</a>
+                            </li>
+                            <li>
+                                <a href="About.aspx">About</a>
+                            </li>
+                            <li>
+                                <a href="Event.aspx">Events</a>
+                            </li>
+                            <li>
+                                <a href="documents.aspx">Documents</a>
+                            </li>
+                            <li>
+                                <a href="PostComment.aspx">Buy/Sell</a>
+                            </li>
+                            <li>
+                                <div style="padding-top: 13px; padding-left:4px">
+                                    <a class=" dropdown-toggle" data-toggle="dropdown" style="color:#777" aria-expanded="false">Members <span class="caret"></span>    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="members.aspx">Committee Members</a></li>
+                                        <li><a href="Alumini.aspx">Alumini Members</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </asp:View>
+                    <asp:View ID="view2_3" runat="server">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="Home.aspx">Home</a>
+                            </li>
+                            <li>
+                                <a href="About.aspx">About</a>
+                            </li>
+                            <li>
+                                <a href="EventCommittee.aspx">Events</a>
+                            </li>
+                            <li>
+                                <a href="documents.aspx">Documents</a>
+                            </li>
+                            <li>
+                                <a href="PostComment.aspx">Buy/Sell</a>
+                            </li>
+                            <li>
+                                 <div style="padding-top: 13px; padding-left:4px">
+                                    <a class=" dropdown-toggle" data-toggle="dropdown" style="color:#777" aria-expanded="false">Members <span class="caret"></span>   </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="members.aspx">Committee Members</a></li>
+                                        <li><a href="Alumini.aspx">Alumini Members</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </asp:View>
+                </asp:MultiView>
+
+
+
+                <%--<asp:ContentPlaceHolder ID="username" runat="server">
+
+                </asp:ContentPlaceHolder>--%>
+
+                <asp:MultiView ID="MultiView1" runat="server">
+                    <asp:View ID="view1" runat="server">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a data-toggle="modal" id="loginModal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+                            </li>
+
+                        </ul>
+                    </asp:View>
+
+                    <!-- Role = Public User (View 1)-->
+                    <asp:View ID="public_view" runat="server">
+
+                        <div class="nav navbar-nav navbar-right">
+                            <div class="btn-group">
+                                <a id="username" runat="server" class="btn btn-primary" href="#" ></a>
+                                
+                                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                        <span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="UpdateProfile.aspx"><i class="fa fa-pencil fa-fw"></i>Update Profile</a></li>
+                                    <li><a href="DonateItems.aspx"><i class="fa fa-pencil fa-fw"></i>Add Item</a></li>
+                                    <li><a href="MyItems.aspx"><i class="fa fa-pencil fa-fw"></i>My Item</a></li>
+                                    <li><a href="MyComments.aspx"><i class="fa fa-pencil fa-fw"></i>My Comments</a></li>
+       
+                                    <li class="divider"></li>
+                                    <li><a href="home.aspx?logout=true"><i class="fa fa-trash-o fa-fw"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </asp:View>
+
+
+                    <!-- Role = Admin -->
+                    <asp:View ID="admin_view" runat="server">
+
+                        <div class="nav navbar-nav navbar-right">
+                            <div class="btn-group">
+                                <a id="admin_name" runat="server" class="btn btn-primary" href="#"></a>
+                                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="UpdateProfile.aspx"><i class="fa fa-pencil fa-fw"></i>Update Profile</a></li>
+                                    <li><a href="DonateItems.aspx"><i class="fa fa-pencil fa-fw"></i>Add Item</a></li>
+                                    <li><a href="MyItems.aspx"><i class="fa fa-pencil fa-fw"></i>My Item</a></li>
+                                    <li><a href="MyComments.aspx"><i class="fa fa-pencil fa-fw"></i>My Comments</a></li>
+                                    
+                                    <li class="divider"></li>
+                                    <li><a href="AddEventPage.aspx"><i class="fa fa-pencil fa-fw"></i>Add Event</a></li>
+                                    <li><a href="Event.aspx"><i class="fa fa-pencil fa-fw"></i>Delete / Edit Event</a></li>
+
+                                    <li class="divider"></li>
+                                    <li><a href="RoleChange.aspx"><i class="fa fa-pencil fa-fw"></i>Role Change</a></li>
+                                    <li><a href="AdminAllItem.aspx"><i class="fa fa-pencil fa-fw"></i>View All Items</a></li>
+
+                                    <li class="divider"></li>
+                                    <li><a href="home.aspx?logout=true"><i class="fa fa-trash-o fa-fw"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </asp:View>
+
+                    <!-- Role = Committee -->
+                    <asp:View ID="committee_view" runat="server">
+                        <div class="nav navbar-nav navbar-right">
+                            <div class="btn-group">
+                                <a id="committee_name" runat="server" class="btn btn-primary" href="#" ></a>
+                                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="UpdateProfile.aspx"><i class="fa fa-pencil fa-fw"></i>Update Profile</a></li>
+                                    <li><a href="DonateItems.aspx"><i class="fa fa-pencil fa-fw"></i>Add Item</a></li>
+                                    <li><a href="MyItems.aspx"><i class="fa fa-pencil fa-fw"></i>My Item</a></li>
+                                    <li><a href="MyComments.aspx"><i class="fa fa-pencil fa-fw"></i>My Comments</a></li>
+
+                                    <li class="divider"></li>
+                                    <li><a href="EventCommittee.aspx"><i class="fa fa-pencil fa-fw"></i>Delete / Edit Event</a></li>
+
+                                    
+                                    <li class="divider"></li>
+                                    <li><a href="home.aspx?logout=true"><i class="fa fa-trash-o fa-fw"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </asp:View>
+
+                </asp:MultiView>
+            </div>
+            <!-- /.navbar-collapse -->
+
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Modal1 Login-->
+    <form id="form2" runat="server">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Login Form</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <asp:label style="color: red" for="error" runat="server" id="error"  Text=""></asp:label>
+                        <br />
+                        <asp:Label ID="Label1" runat="server" Text="Username"></asp:Label>
+                        <br />
+                        <asp:TextBox ID="txtuser" class="form-control" runat="server" placeholder="Enter Username"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
+                        <br />
+                        <asp:TextBox ID="txtpass" class="form-control" runat="server" placeholder="Enter Password" TextMode="Password"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:Label ID="Label12" runat="server" Text="Remember me"></asp:Label>
+                        <asp:CheckBox ID="CheckBox1" runat="server" />
+                        <br />
+                        <br />
+                        <asp:Button ID="btnlogin" runat="server" Text="Login" class="btn btn-primary" OnClick="btnlogin_Click" />
+
+                        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+                        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+                        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                        <script>
+                            function getLoginModal() {
+                                $("#myModal").modal('show');
+                            }
+
+                            $('#loginModal').on('click', function () {
+                               // alert("in modal.." + $(this).find('#error'));
+                                //console.log($(this).find('#error'));
+                                //$(this).find('#error').text("");
+                                document.getElementById("form2").reset();
+                               // document.getElementById('#error').innerText("");
+
+                            });
+                                //function getAlert() {
+                                //    alert("Please login to see the page...!!!");
+                                //}
+                        </script>
+
+                    </div>
+                    <div class="modal-footer">
+                        <h5><a href="SignUp.aspx" style="float: left;">SignUp Now..!!</a>&nbsp;&nbsp;&nbsp;
+                           <b>Forgot Password</b>&nbsp; <a style="float: right;" href="ForgotPassword.aspx">click here!</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            //$('#click1').click(function () {
+
+
+            //    // $('#myModal').hide();
+            //    $('#click1').attr('data-target', '#myModal2');
+
+            //});
+            //$('#click2').click(function () {
+
+
+            //    //	$('#myModal2').hide();
+            //    $('#click2').attr('data-target', '#myModal');
+
+            //});
+
+          //  $('#myModal').on('hidden.bs.modal', function () { $(this).find('form')[0].reset(); });
+
+        });
+    </script>
+
+
+
+
+    <%--   <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+
+                    <p style="text-align: center; color: Highlight;">
+                        Copyright &copy; 2016 ISA<br />
+                        <a href="About.aspx">About Us</a>
+                    </p>
+                </div>
+            </div>
+        </div>--%>
+
+    <%--Footer begins--%>
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <p style="text-align: center; color: Highlight;">
+                Copyright &copy;  2016 ISA &trade;<br />
+                <a href="About.aspx">About Us</a>
+            </p>
+        </div>
+    </div>
+    <%-- Footer Ends --%>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+</body>
+
+
+</html>

@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>W:\App1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="about.html">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="AdminAllItem.aspx">
+      <publishTime>04/11/2016 11:22:40</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>04/07/2016 17:57:14</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="bin/ISA_Project.dll">
+      <publishTime>04/14/2016 15:22:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>04/07/2016 17:59:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>04/07/2016 18:00:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>04/07/2016 18:00:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>04/07/2016 18:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>04/07/2016 18:00:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>04/07/2016 18:00:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>04/07/2016 18:00:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/07/2016 18:00:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/07/2016 17:58:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/07/2016 17:58:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/07/2016 17:59:22</publishTime>
+    </File>
+    <File Include="blog.html">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css.map">
+      <publishTime>04/07/2016 17:58:06</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css.map">
+      <publishTime>04/07/2016 17:58:10</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap.css">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>04/07/2016 17:59:26</publishTime>
+    </File>
+    <File Include="bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/07/2016 17:59:28</publishTime>
+    </File>
+    <File Include="bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/js/bootstrap.js">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/dist/js/npm.js">
+      <publishTime>04/07/2016 17:59:30</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/07/2016 17:58:08</publishTime>
+    </File>
+    <File Include="bootstrap/Gruntfile.js">
+      <publishTime>04/07/2016 17:57:28</publishTime>
+    </File>
+    <File Include="bootstrap/package.json">
+      <publishTime>04/07/2016 17:57:28</publishTime>
+    </File>
+    <File Include="contact.html">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/07/2016 17:57:28</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>04/07/2016 21:38:10</publishTime>
+    </File>
+    <File Include="css/business-casual.css">
+      <publishTime>04/07/2016 21:39:42</publishTime>
+    </File>
+    <File Include="css/PostComment.css">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="documents.aspx">
+      <publishTime>04/07/2016 20:53:54</publishTime>
+    </File>
+    <File Include="Documents/INCOMING STUDENT GUIDE.pdf">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="Documents/inc_stud.png">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="Documents/LIFE AT ISU.pdf">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="Documents/life_at_isu.png">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="Documents/VACCINES AND IMMUNIZATIONS.pdf">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="Documents/vac_imm.png">
+      <publishTime>04/07/2016 20:17:08</publishTime>
+    </File>
+    <File Include="DonateItems.aspx">
+      <publishTime>04/10/2016 10:58:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>04/07/2016 21:29:07</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>04/16/2016 12:29:34</publishTime>
+    </File>
+    <File Include="Images/car.jpg">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="Images/download.jpg">
+      <publishTime>04/07/2016 17:57:30</publishTime>
+    </File>
+    <File Include="Images/mobile.jpg">
+      <publishTime>04/07/2016 17:57:34</publishTime>
+    </File>
+    <File Include="img/bg.jpg">
+      <publishTime>04/07/2016 17:57:36</publishTime>
+    </File>
+    <File Include="img/bg2.jpg">
+      <publishTime>04/07/2016 17:57:20</publishTime>
+    </File>
+    <File Include="img/intro-pic.jpg">
+      <publishTime>04/07/2016 17:57:36</publishTime>
+    </File>
+    <File Include="img/slide-1.jpg">
+      <publishTime>04/07/2016 17:57:36</publishTime>
+    </File>
+    <File Include="img/slide-2.jpg">
+      <publishTime>04/07/2016 17:57:36</publishTime>
+    </File>
+    <File Include="img/slide-3.jpg">
+      <publishTime>04/07/2016 17:57:36</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/07/2016 17:57:10</publishTime>
+    </File>
+    <File Include="ItemSubscription.aspx">
+      <publishTime>04/07/2016 21:26:23</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>04/07/2016 17:57:44</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>04/07/2016 17:57:44</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>04/07/2016 17:57:44</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>04/07/2016 17:57:44</publishTime>
+    </File>
+    <File Include="LICENSE">
+      <publishTime>04/07/2016 17:57:16</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>04/11/2016 11:15:36</publishTime>
+    </File>
+    <File Include="members.aspx">
+      <publishTime>04/07/2016 20:53:35</publishTime>
+    </File>
+    <File Include="members.html">
+      <publishTime>04/07/2016 20:15:25</publishTime>
+    </File>
+    <File Include="MyItems.aspx">
+      <publishTime>04/07/2016 21:29:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/07/2016 17:57:16</publishTime>
+    </File>
+    <File Include="PostComment.aspx">
+      <publishTime>04/07/2016 21:47:44</publishTime>
+    </File>
+    <File Include="README.md">
+      <publishTime>04/07/2016 17:57:20</publishTime>
+    </File>
+    <File Include="RoleChange.aspx">
+      <publishTime>04/07/2016 21:27:17</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>04/07/2016 17:57:56</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>04/07/2016 17:57:56</publishTime>
+    </File>
+    <File Include="Service References/ISUSMSWebService/ISA_Project.ISUSMSWebService.getCarriersResponse.datasource">
+      <publishTime>04/07/2016 17:59:08</publishTime>
+    </File>
+    <File Include="Service References/ISUSMSWebService/ISA_Project.ISUSMSWebService.sendSMSISUResponse.datasource">
+      <publishTime>04/07/2016 17:59:08</publishTime>
+    </File>
+    <File Include="Service References/ISUSMSWebService/ISA_Project.ISUSMSWebService.sendSMSResponse.datasource">
+      <publishTime>04/07/2016 17:59:08</publishTime>
+    </File>
+    <File Include="SignUp.aspx">
+      <publishTime>04/07/2016 17:57:18</publishTime>
+    </File>
+    <File Include="UpdatePassword.aspx">
+      <publishTime>04/07/2016 21:50:46</publishTime>
+    </File>
+    <File Include="UpdateProfile.aspx">
+      <publishTime>04/07/2016 21:56:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/14/2016 15:19:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
